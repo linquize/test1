@@ -10,6 +10,7 @@ environment:
 stack: go 1.11
 
 install:
+  - ls -la
   - git config -l --system
   - git config -l --global
   - git config -l --local
