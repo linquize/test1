@@ -14,6 +14,7 @@ install:
   - git config -l --global
   - git config -l --local
   - git config -l
+  - git config core.autocrlf
   - set PATH=%GOPATH%\bin;%PATH%
   - set PATH=C:\msys64\mingw64\bin;%PATH%
   - go version
